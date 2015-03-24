@@ -7,7 +7,7 @@ using namespace v8;
 void Method(const FunctionCallbackInfo<Value>& args) {
   Isolate* isolate = Isolate::GetCurrent();
   HandleScope scope(isolate);
-  args.GetReturnValue().Set(String::NewFromUtf8(isolate, "world444499"));
+  args.GetReturnValue().Set(String::NewFromUtf8(isolate, "world444499222"));
 }
 
 void init(Handle<Object> exports) {
